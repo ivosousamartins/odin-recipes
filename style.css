@@ -1,0 +1,41 @@
+/* style.css */
+
+.header {
+    color: rgb(182, 97, 222);
+    font-family: gilmer;
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:link{
+    font-family: gilmer;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(182, 97, 222);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(120, 120, 116);
+  }
